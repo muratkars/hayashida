@@ -1,6 +1,12 @@
 import Link from "next/link";
-import { ArrowRight, TrendingUp, Shield, BarChart3, Users, Landmark, Globe2, Building2, Calendar } from "lucide-react";
+import { ArrowRight, TrendingUp, Shield, BarChart3, Users, Landmark, Globe2, Calendar } from "lucide-react";
 import { newsArticles } from "@/data/news";
+
+const newsImages = [
+  "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+  "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=800&q=80",
+];
 
 const stats = [
   { label: "Founded", value: "1926", icon: Calendar },
@@ -42,9 +48,15 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative bg-navy-900 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute inset-0 bg-gradient-to-br from-navy-800 via-navy-900 to-navy-950" />
+      <section
+        className="relative bg-navy-900 text-white overflow-hidden"
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1920&q=80')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-navy-900/80">
           <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-accent-red/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
           <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-navy-600/20 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3" />
         </div>
@@ -155,15 +167,16 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {latestNews.map((article) => (
+            {latestNews.map((article, index) => (
               <Link
                 key={article.slug}
                 href={`/newsroom/${article.slug}`}
                 className="group"
               >
-                <div className="bg-navy-900 rounded-lg h-48 mb-4 flex items-center justify-center overflow-hidden">
-                  <Building2 className="w-12 h-12 text-navy-700 group-hover:text-accent-red/50 transition-colors" />
-                </div>
+                <div
+                  className="rounded-lg h-48 mb-4 overflow-hidden bg-cover bg-center"
+                  style={{ backgroundImage: `url('${newsImages[index]}')` }}
+                />
                 <div className="flex items-center gap-3 mb-2">
                   <span className="text-xs font-semibold text-accent-red uppercase tracking-wider">
                     {article.category}

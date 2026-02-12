@@ -78,6 +78,7 @@ export default function SustainabilityPage() {
           { label: "Home", href: "/" },
           { label: "Sustainability" },
         ]}
+        backgroundImage="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1920&q=80"
       />
 
       {/* Key Metrics */}

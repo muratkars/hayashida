@@ -67,6 +67,7 @@ export default function AboutPage() {
       <PageHeader
         title="About Hayashida Group"
         subtitle="A leading global financial services firm connecting markets and shaping futures since 1926."
+        backgroundImage="https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?auto=format&fit=crop&w=1920&q=80"
       />
 
       {/* Company Overview */}

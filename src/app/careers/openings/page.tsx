@@ -26,6 +26,7 @@ export default function CareerOpeningsPage() {
           { label: "Careers", href: "/careers" },
           { label: "Openings" },
         ]}
+        backgroundImage="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1920&q=80"
       />
 
       <section className="bg-white py-16 lg:py-24">

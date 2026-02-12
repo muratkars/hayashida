@@ -24,6 +24,7 @@ export default function NewsroomPage() {
           { label: "Home", href: "/" },
           { label: "Newsroom" },
         ]}
+        backgroundImage="https://images.unsplash.com/photo-1504711434969-e33886168d8c?auto=format&fit=crop&w=1920&q=80"
       />
 
       <section className="bg-white py-16 lg:py-24">

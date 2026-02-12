@@ -25,6 +25,7 @@ export default function LeadershipPage() {
           { label: "About", href: "/about" },
           { label: "Leadership" },
         ]}
+        backgroundImage="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1920&q=80"
       />
 
       <section className="bg-white py-20 lg:py-28">

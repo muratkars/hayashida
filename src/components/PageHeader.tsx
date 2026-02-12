@@ -2,12 +2,17 @@ interface PageHeaderProps {
   title: string;
   subtitle?: string;
   breadcrumbs?: { label: string; href?: string }[];
+  backgroundImage?: string;
 }
 
-export default function PageHeader({ title, subtitle, breadcrumbs }: PageHeaderProps) {
+export default function PageHeader({ title, subtitle, breadcrumbs, backgroundImage }: PageHeaderProps) {
   return (
-    <section className="bg-navy-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+    <section
+      className={`relative text-white ${backgroundImage ? 'bg-cover bg-center' : 'bg-navy-900'}`}
+      style={backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : undefined}
+    >
+      {backgroundImage && <div className="absolute inset-0 bg-navy-900/75" />}
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
         {breadcrumbs && (
           <div className="flex items-center gap-2 text-sm text-navy-400 mb-6">
             {breadcrumbs.map((crumb, i) => (

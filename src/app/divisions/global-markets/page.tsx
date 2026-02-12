@@ -69,6 +69,7 @@ export default function GlobalMarketsPage() {
           { label: "Divisions", href: "/divisions" },
           { label: "Global Markets" },
         ]}
+        backgroundImage="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1920&q=80"
       />
 
       {/* Stats */}

@@ -79,6 +79,7 @@ export default function RiskTechnologyPage() {
           { label: "Divisions", href: "/divisions" },
           { label: "Risk & Technology" },
         ]}
+        backgroundImage="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1920&q=80"
       />
 
       {/* Stats */}

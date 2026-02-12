@@ -66,6 +66,7 @@ export default function GlobalPresencePage() {
           { label: "About", href: "/about" },
           { label: "Global Presence" },
         ]}
+        backgroundImage="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1920&q=80"
       />
 
       {/* Overview Stats */}
