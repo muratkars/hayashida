@@ -12,7 +12,7 @@ const stats = [
   { label: "Founded", value: "1926", icon: Calendar },
   { label: "Employees", value: "28,000+", icon: Users },
   { label: "Countries", value: "30+", icon: Globe2 },
-  { label: "Revenue", value: "¥1.8T", icon: TrendingUp },
+  { label: "Revenue", value: "$12.4B", icon: TrendingUp },
 ];
 
 const divisions = [
@@ -30,7 +30,7 @@ const divisions = [
   },
   {
     title: "Asset Management",
-    description: "¥37 trillion in assets under management across equities, fixed income, alternatives, and multi-asset strategies.",
+    description: "$255 billion in assets under management across equities, fixed income, alternatives, and multi-asset strategies.",
     href: "/divisions/asset-management",
     icon: TrendingUp,
   },
@@ -51,7 +51,7 @@ export default function HomePage() {
       <section
         className="relative bg-navy-900 text-white overflow-hidden"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1920&q=80')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1534430480872-3498386e7856?auto=format&fit=crop&w=1920&q=80')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -71,7 +71,7 @@ export default function HomePage() {
               <span className="text-navy-300">Shaping Futures</span>
             </h1>
             <p className="mt-6 text-lg lg:text-xl text-navy-300 max-w-2xl leading-relaxed">
-              Hayashida Group is a leading global financial services firm headquartered in Tokyo, delivering innovative solutions across investment banking, global markets, asset management, and wealth management.
+              Meridian Capital Group is a leading global financial services firm headquartered in New York, delivering innovative solutions across investment banking, global markets, asset management, and wealth management.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link
@@ -157,7 +157,7 @@ export default function HomePage() {
           <div className="flex items-end justify-between mb-12">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-navy-900">Latest News</h2>
-              <p className="mt-3 text-gray-600">Press releases and announcements from Hayashida Group.</p>
+              <p className="mt-3 text-gray-600">Press releases and announcements from Meridian Capital Group.</p>
             </div>
             <Link
               href="/newsroom"
@@ -212,7 +212,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold">Ready to Connect?</h2>
           <p className="mt-4 text-navy-300 text-lg max-w-2xl mx-auto">
-            With nearly a century of experience and a presence in over 30 countries, Hayashida Group is your partner for navigating global financial markets.
+            With nearly a century of experience and a presence in over 30 countries, Meridian Capital Group is your partner for navigating global financial markets.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link

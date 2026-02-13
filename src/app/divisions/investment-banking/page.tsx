@@ -15,14 +15,14 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Investment Banking",
   description:
-    "Hayashida Group Investment Banking provides M&A advisory, equity underwriting, debt capital markets, and restructuring services to leading corporations and institutions worldwide.",
+    "Meridian Capital Group Investment Banking provides M&A advisory, equity underwriting, debt capital markets, and restructuring services to leading corporations and institutions worldwide.",
 };
 
 const services = [
   {
     title: "M&A Advisory",
     description:
-      "Strategic advisory on mergers, acquisitions, divestitures, and joint ventures. Our team has advised on some of the largest cross-border transactions originating from Asia, including multiple landmark deals exceeding $10 billion.",
+      "Strategic advisory on mergers, acquisitions, divestitures, and joint ventures. Our team has advised on some of the largest cross-border transactions originating from the US and Europe, including multiple landmark deals exceeding $10 billion.",
     icon: HandshakeIcon,
   },
   {
@@ -34,28 +34,28 @@ const services = [
   {
     title: "Debt Capital Markets",
     description:
-      "Investment-grade and high-yield bond origination, structured finance, leveraged finance, and private placements. Our credit platform spans global markets with particular strength in yen-denominated and samurai bonds.",
+      "Investment-grade and high-yield bond origination, structured finance, leveraged finance, and private placements. Our credit platform spans global markets with particular strength in investment-grade corporate and sovereign bonds.",
     icon: Building2,
   },
   {
     title: "Restructuring",
     description:
-      "Advising creditors, debtors, and stakeholders through complex financial restructurings, distressed M&A, and liability management. Our restructuring practice is recognized as one of the most experienced in the APAC region.",
+      "Advising creditors, debtors, and stakeholders through complex financial restructurings, distressed M&A, and liability management. Our restructuring practice is recognized as one of the most experienced in the Americas and EMEA.",
     icon: Briefcase,
   },
 ];
 
 const stats = [
-  { label: "Japan M&A League Table Rank", value: "Top 5" },
+  { label: "US M&A League Table Rank", value: "Top 5" },
   { label: "Deals Advised (3 Years)", value: "$150B+" },
   { label: "Active Client Relationships", value: "1,200+" },
   { label: "Investment Banking Professionals", value: "2,800+" },
 ];
 
 const offices = [
-  { city: "Tokyo", role: "Global Headquarters" },
+  { city: "New York", role: "Global Headquarters" },
   { city: "London", role: "EMEA Hub" },
-  { city: "New York", role: "Americas Hub" },
+  { city: "Frankfurt", role: "European Hub" },
   { city: "Hong Kong", role: "Greater China" },
   { city: "Singapore", role: "Southeast Asia" },
 ];
@@ -97,10 +97,10 @@ export default function InvestmentBankingPage() {
           <div className="max-w-3xl">
             <h2 className="text-3xl font-bold text-navy-900">Overview</h2>
             <p className="mt-6 text-gray-600 leading-relaxed text-lg">
-              Hayashida Group&apos;s Investment Banking division is a trusted partner to the world&apos;s leading corporations, financial sponsors, and public sector institutions. With deep sector expertise and a truly global platform, we advise clients on their most important strategic transactions.
+              Meridian Capital Group&apos;s Investment Banking division is a trusted partner to the world&apos;s leading corporations, financial sponsors, and public sector institutions. With deep sector expertise and a truly global platform, we advise clients on their most important strategic transactions.
             </p>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Our bankers combine local market knowledge with cross-border capabilities, enabling clients to navigate complex deal environments across developed and emerging markets. We are consistently ranked among the top five advisors in Japan by deal volume and value, and our international franchise continues to grow with strategic hires in key markets.
+              Our bankers combine local market knowledge with cross-border capabilities, enabling clients to navigate complex deal environments across developed and emerging markets. We are consistently ranked among the top ten advisors in the US by deal volume and value, and our international franchise continues to grow with strategic hires in key markets.
             </p>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function InvestmentBankingPage() {
               </div>
             </div>
             <p className="text-gray-600 leading-relaxed">
-              Richard Thornton leads Hayashida Group&apos;s Investment Banking division, overseeing advisory, underwriting, and capital markets activities worldwide. With over 25 years of experience in international finance, he joined Hayashida from a leading global bank where he served as co-head of Asia-Pacific M&A. Under his leadership, the division has expanded its cross-border capabilities and deepened client relationships across key growth markets.
+              Richard Thornton leads Meridian Capital Group&apos;s Investment Banking division, overseeing advisory, underwriting, and capital markets activities worldwide. With over 25 years of experience in international finance, he joined Meridian from a leading global bank where he served as co-head of Americas M&A. Under his leadership, the division has expanded its cross-border capabilities and deepened client relationships across key growth markets.
             </p>
           </div>
         </div>

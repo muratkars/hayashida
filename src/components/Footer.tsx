@@ -18,9 +18,9 @@ const company = [
 ];
 
 const offices = [
-  "Tokyo (HQ)",
+  "New York (HQ)",
   "London",
-  "New York",
+  "Frankfurt",
   "Hong Kong",
   "Singapore",
   "Sydney",
@@ -36,15 +36,15 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-8 h-8 bg-accent-red rounded-sm flex items-center justify-center font-bold text-sm text-white">
-                H
+                M
               </div>
               <div className="leading-tight">
-                <div className="font-semibold text-sm text-white tracking-wide">HAYASHIDA GROUP</div>
-                <div className="text-[10px] text-navy-400 tracking-widest">林田グループ</div>
+                <div className="font-semibold text-sm text-white tracking-wide">MERIDIAN CAPITAL GROUP</div>
+                <div className="text-[10px] text-navy-400 tracking-widest">Est. 1926 · New York</div>
               </div>
             </div>
             <p className="text-sm leading-relaxed text-navy-400 mt-4">
-              Connecting Markets, Shaping Futures. A global financial services group headquartered in Tokyo, serving clients across investment banking, global markets, asset management, and wealth management.
+              Connecting Markets, Shaping Futures. A global financial services group headquartered in New York, serving clients across investment banking, global markets, asset management, and wealth management.
             </p>
           </div>
 
@@ -91,7 +91,7 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-navy-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-navy-500">
-              &copy; {new Date().getFullYear()} Hayashida Group, Inc. All rights reserved. Tokyo Stock Exchange (Prime Market): 8604
+              &copy; {new Date().getFullYear()} Meridian Capital Group, Inc. All rights reserved. NYSE: MRDN
             </p>
             <div className="flex gap-6">
               <Link href="/contact" className="text-xs text-navy-500 hover:text-navy-300 transition-colors">Privacy Policy</Link>

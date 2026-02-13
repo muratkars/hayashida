@@ -181,7 +181,7 @@ export default function CareerOpeningsPage() {
           </p>
           <div className="mt-8">
             <a
-              href="mailto:careers@hayashidagroup.com"
+              href="mailto:careers@meridiancapitalgroup.com"
               className="inline-flex items-center gap-2 bg-accent-red hover:bg-accent-red-dark px-8 py-3.5 rounded font-semibold text-sm transition-colors"
             >
               Contact Recruiting

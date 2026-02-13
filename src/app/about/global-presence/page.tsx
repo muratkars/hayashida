@@ -3,9 +3,9 @@ import { MapPin, Users, Globe2 } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Global Presence | About | Hayashida Group",
+  title: "Global Presence | About | Meridian Capital Group",
   description:
-    "Hayashida Group operates across 30+ countries with major offices in Tokyo, London, New York, Hong Kong, Singapore, Sydney, and Mumbai.",
+    "Meridian Capital Group operates across 30+ countries with major offices in New York, London, Frankfurt, Hong Kong, Singapore, Sydney, and Mumbai.",
 };
 
 interface Office {
@@ -17,9 +17,9 @@ interface Office {
 
 const offices: Office[] = [
   {
-    city: "Tokyo",
+    city: "New York",
     isHQ: true,
-    address: "Otemachi Tower, 1-5-1 Otemachi, Chiyoda-ku, Tokyo 100-0004",
+    address: "One World Financial Center, 200 Liberty Street, New York, NY 10281",
     employees: "~12,000",
   },
   {
@@ -28,9 +28,9 @@ const offices: Office[] = [
     employees: "~3,200",
   },
   {
-    city: "New York",
-    address: "383 Madison Avenue, New York, NY 10179",
-    employees: "~2,800",
+    city: "Frankfurt",
+    address: "Taunusanlage 12, 60325 Frankfurt am Main, Germany",
+    employees: "~3,000",
   },
   {
     city: "Hong Kong",
@@ -60,7 +60,7 @@ export default function GlobalPresencePage() {
     <>
       <PageHeader
         title="Global Presence"
-        subtitle="With offices in over 30 countries, Hayashida Group delivers integrated financial solutions wherever our clients operate."
+        subtitle="With offices in over 30 countries, Meridian Capital Group delivers integrated financial solutions wherever our clients operate."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "About", href: "/about" },
@@ -153,10 +153,10 @@ export default function GlobalPresencePage() {
 
           <div className="mt-10 bg-white border border-gray-200 rounded-lg p-6">
             <p className="text-sm text-gray-500">
-              In addition to these major offices, Hayashida Group maintains a
+              In addition to these major offices, Meridian Capital Group maintains a
               presence in over 20 additional locations across Europe, the
               Americas, the Middle East, and the Asia-Pacific region, including
-              Frankfurt, Zurich, Dubai, Shanghai, Seoul, Jakarta, and Sao Paulo.
+              Tokyo, Zurich, Dubai, Shanghai, Seoul, Jakarta, and Sao Paulo.
             </p>
           </div>
         </div>

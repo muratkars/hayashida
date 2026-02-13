@@ -4,9 +4,9 @@ import { ArrowRight, Leaf, Users, ShieldCheck, Target, Sprout, Globe2 } from "lu
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Sustainability | Hayashida Group",
+  title: "Sustainability | Meridian Capital Group",
   description:
-    "Hayashida Group's ESG commitments, sustainable financing initiatives, carbon neutrality goals, and Green Bond Framework.",
+    "Meridian Capital Group's ESG commitments, sustainable financing initiatives, carbon neutrality goals, and Green Bond Framework.",
 };
 
 const pillars = [
@@ -28,8 +28,12 @@ const pillars = [
       "Diversity & inclusion targets across all regions",
       "30% women in senior management by 2027",
       "Financial literacy programs reaching 500,000+ participants annually",
-      "Community investment exceeding ¥5B per year",
+      "Community investment exceeding $35M per year",
       "Employee well-being and development programs globally",
+      "AI ethics governance framework ensuring responsible deployment of machine learning models",
+      "Real-time environmental telemetry across all data centers tracking energy, water, and carbon metrics",
+      "AI-powered ESG scoring engine analyzing 10,000+ companies for portfolio sustainability alignment",
+      "Satellite and IoT-based environmental monitoring for financed asset climate risk assessment",
     ],
   },
   {
@@ -47,12 +51,12 @@ const pillars = [
 
 const stats = [
   {
-    value: "¥2T",
+    value: "$14B",
     label: "Sustainable Financing Target by 2030",
     icon: Target,
   },
   {
-    value: "¥800B",
+    value: "$5.5B",
     label: "Sustainable Finance Underwritten Since 2019",
     icon: Sprout,
   },
@@ -108,14 +112,14 @@ export default function SustainabilityPage() {
               Our Commitment
             </h2>
             <p className="mt-6 text-gray-600 text-lg leading-relaxed">
-              As a leading global financial institution, Hayashida Group
+              As a leading global financial institution, Meridian Capital Group
               recognizes the critical role we play in financing the transition to
-              a sustainable economy. We are committed to mobilizing ¥2 trillion
+              a sustainable economy. We are committed to mobilizing $14 billion
               in sustainable financing by 2030 to support climate action, social
               progress, and responsible governance.
             </p>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Since 2019, we have underwritten over ¥800 billion in green bonds,
+              Since 2019, we have underwritten over $5.5 billion in green bonds,
               social bonds, sustainability-linked loans, and transition
               financing. Our Green Bond Framework, aligned with ICMA Green Bond
               Principles, provides a transparent structure for channeling capital
@@ -185,7 +189,7 @@ export default function SustainabilityPage() {
                 Green Bond Framework
               </h2>
               <p className="mt-6 text-gray-600 text-lg leading-relaxed">
-                Hayashida Group&apos;s Green Bond Framework establishes a
+                Meridian Capital Group&apos;s Green Bond Framework establishes a
                 transparent and rigorous structure for issuing green bonds to
                 finance projects that contribute to environmental sustainability.
               </p>
@@ -238,8 +242,8 @@ export default function SustainabilityPage() {
           </h2>
           <p className="mt-4 text-navy-300 max-w-2xl mx-auto">
             Whether you are an issuer seeking sustainable financing solutions or
-            an investor focused on ESG-aligned opportunities, Hayashida
-            Group&apos;s dedicated sustainability team is here to help.
+            an investor focused on ESG-aligned opportunities, Meridian
+            Capital Group&apos;s dedicated sustainability team is here to help.
           </p>
           <div className="mt-8">
             <Link

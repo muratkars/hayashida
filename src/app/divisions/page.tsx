@@ -13,14 +13,14 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Our Divisions",
   description:
-    "Explore Hayashida Group's five integrated business divisions: Investment Banking, Global Markets, Asset Management, Wealth Management, and Risk & Technology.",
+    "Explore Meridian Capital Group's five integrated business divisions: Investment Banking, Global Markets, Asset Management, Wealth Management, and Risk & Technology.",
 };
 
 const divisions = [
   {
     title: "Investment Banking",
     description:
-      "Advisory, underwriting, and capital markets solutions for corporate and institutional clients. Ranked in the top 5 in Japan M&A league tables with over $150 billion in deals advised over the past three years.",
+      "Advisory, underwriting, and capital markets solutions for corporate and institutional clients. Ranked in the top 10 in US M&A league tables with over $150 billion in deals advised over the past three years.",
     href: "/divisions/investment-banking",
     icon: Landmark,
     leader: "Richard Thornton",
@@ -32,16 +32,16 @@ const divisions = [
       "Fixed income, equities, foreign exchange, commodities, and derivatives trading with deep liquidity across all major markets. Record APAC trading volumes exceeding $2.8 trillion quarterly.",
     href: "/divisions/global-markets",
     icon: BarChart3,
-    leader: "Takeshi Mori",
+    leader: "James Morgan",
     leaderTitle: "Global Head of Markets",
   },
   {
     title: "Asset Management",
     description:
-      "¥37 trillion in assets under management spanning public equities, fixed income, alternatives, multi-asset, and ESG-integrated strategies for institutional and retail investors.",
+      "$255 billion in assets under management spanning public equities, fixed income, alternatives, multi-asset, and ESG-integrated strategies for institutional and retail investors.",
     href: "/divisions/asset-management",
     icon: TrendingUp,
-    leader: "Natsuki Kimura",
+    leader: "Katherine Reynolds",
     leaderTitle: "Global Head of Asset Management",
   },
   {
@@ -50,7 +50,7 @@ const divisions = [
       "Comprehensive wealth planning, portfolio management, and advisory services for high-net-worth and ultra-high-net-worth individuals, families, and family offices worldwide.",
     href: "/divisions/wealth-management",
     icon: Users,
-    leader: "Haruki Watanabe",
+    leader: "Michael Sato",
     leaderTitle: "Global Head of Wealth Management",
   },
   {
@@ -59,7 +59,7 @@ const divisions = [
       "Enterprise risk management, quantitative analytics, and technology infrastructure powering the firm's operations. Over 500 million risk simulations processed daily across global platforms.",
     href: "/divisions/risk-technology",
     icon: Shield,
-    leader: "Yuki Hasegawa & David Chen",
+    leader: "David Hasegawa & David Chen",
     leaderTitle: "CTO & Global Head of Risk",
   },
 ];
@@ -118,14 +118,14 @@ export default function DivisionsPage() {
             Integrated Solutions Across Every Division
           </h2>
           <p className="mt-4 text-navy-300 max-w-2xl mx-auto">
-            The strength of Hayashida Group lies in the seamless collaboration between our divisions, enabling us to deliver holistic solutions for even the most complex financial challenges.
+            The strength of Meridian Capital Group lies in the seamless collaboration between our divisions, enabling us to deliver holistic solutions for even the most complex financial challenges.
           </p>
           <div className="mt-8">
             <Link
               href="/about"
               className="inline-flex items-center gap-2 bg-accent-red hover:bg-accent-red-dark text-white px-8 py-3.5 rounded font-semibold text-sm transition-colors"
             >
-              About Hayashida Group <ArrowRight className="w-4 h-4" />
+              About Meridian Capital Group <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
         </div>

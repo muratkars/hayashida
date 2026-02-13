@@ -6,7 +6,7 @@ import { executives } from "@/data/leadership";
 export const metadata: Metadata = {
   title: "Leadership",
   description:
-    "Meet the executive leadership team of Hayashida Group. Our leaders bring decades of experience across global finance, technology, risk management, and operations.",
+    "Meet the executive leadership team of Meridian Capital Group. Our leaders bring decades of experience across global finance, technology, risk management, and operations.",
 };
 
 const highlightedTitles = [
@@ -20,7 +20,7 @@ export default function LeadershipPage() {
     <>
       <PageHeader
         title="Leadership"
-        subtitle="The executive team guiding Hayashida Group's strategy, innovation, and global growth."
+        subtitle="The executive team guiding Meridian Capital Group's strategy, innovation, and global growth."
         breadcrumbs={[
           { label: "About", href: "/about" },
           { label: "Leadership" },
@@ -35,7 +35,7 @@ export default function LeadershipPage() {
               Executive Team
             </h2>
             <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-              Hayashida Group is led by a diverse team of experienced
+              Meridian Capital Group is led by a diverse team of experienced
               professionals with deep expertise across investment banking,
               global markets, asset management, technology, and risk. Together,
               they are driving the firm&apos;s strategic vision and its most
@@ -118,7 +118,7 @@ export default function LeadershipPage() {
               Board of Directors
             </h3>
             <p className="mt-3 text-gray-600 leading-relaxed">
-              Hayashida Group&apos;s Board of Directors provides independent
+              Meridian Capital Group&apos;s Board of Directors provides independent
               oversight and strategic guidance. The Board comprises experienced
               leaders from finance, technology, law, and public policy,
               ensuring robust corporate governance and accountability to our

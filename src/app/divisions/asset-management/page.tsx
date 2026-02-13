@@ -16,49 +16,49 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Asset Management",
   description:
-    "Hayashida Group Asset Management manages ¥37 trillion across public equities, fixed income, alternatives, multi-asset, and ESG-integrated strategies for institutional and retail investors.",
+    "Meridian Capital Group Asset Management manages $255 billion across public equities, fixed income, alternatives, multi-asset, and ESG-integrated strategies for institutional and retail investors.",
 };
 
 const strategies = [
   {
     title: "Public Equities",
     description:
-      "Active and systematic equity strategies spanning Japanese, Asian, and global markets. Our equity investment teams employ fundamental bottom-up research, quantitative factor models, and thematic approaches to generate consistent alpha across market cycles.",
+      "Active and systematic equity strategies spanning US, European, and global markets. Our equity investment teams employ fundamental bottom-up research, quantitative factor models, and thematic approaches to generate consistent alpha across market cycles.",
     icon: TrendingUp,
-    aum: "¥12.4T",
+    aum: "$85B",
   },
   {
     title: "Fixed Income",
     description:
-      "Core, core-plus, and credit strategies across government, corporate, and securitized bonds. Our fixed income franchise is one of the largest in Asia, with deep expertise in JGB portfolios, Asian credit, and global aggregate mandates.",
+      "Core, core-plus, and credit strategies across government, corporate, and securitized bonds. Our fixed income franchise is one of the largest in North America, with deep expertise in US Treasury portfolios, investment-grade credit, and global aggregate mandates.",
     icon: BarChart3,
-    aum: "¥11.2T",
+    aum: "$77B",
   },
   {
     title: "Alternatives",
     description:
       "Private equity, real estate, infrastructure, and hedge fund solutions for institutional investors seeking diversification and enhanced returns. Our alternatives platform has delivered top-quartile performance across multiple vintage years.",
     icon: Target,
-    aum: "¥5.8T",
+    aum: "$40B",
   },
   {
     title: "Multi-Asset",
     description:
       "Dynamic asset allocation strategies and balanced portfolio solutions designed to optimize risk-adjusted returns across varying market environments. Our multi-asset team leverages proprietary macro models and tactical overlay frameworks.",
     icon: PieChart,
-    aum: "¥4.9T",
+    aum: "$34B",
   },
   {
     title: "ESG-Integrated",
     description:
-      "Strategies embedding environmental, social, and governance factors throughout the investment process. As a signatory to the UN PRI and a leader in Japan's Stewardship Code, we integrate sustainability considerations into every investment decision.",
+      "Strategies embedding environmental, social, and governance factors throughout the investment process. As a signatory to the UN PRI and a leader in responsible stewardship, we integrate sustainability considerations into every investment decision.",
     icon: Leaf,
-    aum: "¥2.7T",
+    aum: "$19B",
   },
 ];
 
 const stats = [
-  { label: "Assets Under Management", value: "¥37T" },
+  { label: "Assets Under Management", value: "$255B" },
   { label: "Investment Professionals", value: "620+" },
   { label: "Institutional Clients", value: "2,400+" },
   { label: "Fund Strategies", value: "180+" },
@@ -69,7 +69,7 @@ export default function AssetManagementPage() {
     <>
       <PageHeader
         title="Asset Management"
-        subtitle="Delivering long-term investment performance across a comprehensive range of strategies, with ¥37 trillion in assets under management for institutional and retail clients worldwide."
+        subtitle="Delivering long-term investment performance across a comprehensive range of strategies, with $255 billion in assets under management for institutional and retail clients worldwide."
         breadcrumbs={[
           { label: "Divisions", href: "/divisions" },
           { label: "Asset Management" },
@@ -100,10 +100,10 @@ export default function AssetManagementPage() {
           <div className="max-w-3xl">
             <h2 className="text-3xl font-bold text-navy-900">Overview</h2>
             <p className="mt-6 text-gray-600 leading-relaxed text-lg">
-              Hayashida Group Asset Management is one of the largest asset managers in Asia, entrusted with ¥37 trillion by pension funds, sovereign wealth funds, insurance companies, endowments, and individual investors.
+              Meridian Capital Group Asset Management is one of the largest asset managers in North America, entrusted with $255 billion by pension funds, sovereign wealth funds, insurance companies, endowments, and individual investors.
             </p>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Our investment philosophy centers on rigorous fundamental research, disciplined risk management, and a long-term perspective. With over 620 investment professionals operating from offices in Tokyo, London, New York, Hong Kong, and Singapore, we offer a full spectrum of strategies spanning public markets, private markets, and multi-asset solutions.
+              Our investment philosophy centers on rigorous fundamental research, disciplined risk management, and a long-term perspective. With over 620 investment professionals operating from offices in New York, London, Frankfurt, Hong Kong, and Singapore, we offer a full spectrum of strategies spanning public markets, private markets, and multi-asset solutions.
             </p>
             <p className="mt-4 text-gray-600 leading-relaxed">
               We are committed to responsible investing and have been a signatory to the United Nations Principles for Responsible Investment since 2008. ESG integration is embedded across our investment platform, and our dedicated stewardship team actively engages with portfolio companies to drive long-term value creation.
@@ -159,16 +159,16 @@ export default function AssetManagementPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                region: "Japan & Asia-Pacific",
-                detail: "¥24.8T AUM managed from Tokyo, Hong Kong, and Singapore",
+                region: "Americas",
+                detail: "$170B AUM managed from New York, with institutional coverage across North and South America",
               },
               {
                 region: "Europe, Middle East & Africa",
-                detail: "¥7.1T AUM managed from London with dedicated EMEA distribution",
+                detail: "$49B AUM managed from London and Frankfurt with dedicated EMEA distribution",
               },
               {
-                region: "Americas",
-                detail: "¥5.1T AUM managed from New York with growing institutional client base",
+                region: "Asia-Pacific",
+                detail: "$36B AUM managed from Hong Kong and Singapore with growing institutional client base",
               },
             ].map((region) => (
               <div
@@ -198,7 +198,7 @@ export default function AssetManagementPage() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-navy-900">
-                  Natsuki Kimura
+                  Katherine Reynolds
                 </h3>
                 <p className="text-gray-500">
                   Global Head of Asset Management
@@ -206,7 +206,7 @@ export default function AssetManagementPage() {
               </div>
             </div>
             <p className="text-gray-600 leading-relaxed">
-              Natsuki Kimura leads Hayashida Group&apos;s Asset Management division, overseeing investment strategy, product development, and client relationships across all regions. A CFA charterholder with over 22 years of investment experience, Kimura-san previously served as Chief Investment Officer for the division&apos;s equity platform. She is widely recognized for her leadership in ESG integration and was named among the top 50 women in asset management by a leading industry publication.
+              Katherine Reynolds leads Meridian Capital Group&apos;s Asset Management division, overseeing investment strategy, product development, and client relationships across all regions. A CFA charterholder with over 22 years of investment experience, Reynolds previously served as Chief Investment Officer for the division&apos;s equity platform. She is widely recognized for her leadership in ESG integration and was named among the top 50 women in asset management by a leading industry publication.
             </p>
           </div>
         </div>

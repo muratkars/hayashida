@@ -5,11 +5,11 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "Hayashida Group — Connecting Markets, Shaping Futures",
-    template: "%s | Hayashida Group",
+    default: "Meridian Capital Group — Connecting Markets, Shaping Futures",
+    template: "%s | Meridian Capital Group",
   },
   description:
-    "Hayashida Group is a global financial services firm headquartered in Tokyo, Japan, offering investment banking, global markets, asset management, and wealth management services.",
+    "Meridian Capital Group is a global financial services firm headquartered in New York, with a major European presence in Frankfurt, Germany, offering investment banking, global markets, asset management, and wealth management services.",
 };
 
 export default function RootLayout({

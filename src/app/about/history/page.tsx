@@ -4,21 +4,21 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Our History",
   description:
-    "Explore Hayashida Group's journey from a Tokyo securities firm founded in 1926 to a global financial institution with operations in over 30 countries and ¥45 trillion in assets under management.",
+    "Explore Meridian Capital Group's journey from a New York securities firm founded in 1926 to a global financial institution with operations in over 30 countries and $300 billion in assets under management.",
 };
 
 const milestones = [
   {
     year: "1926",
-    title: "Founded in Tokyo",
+    title: "Founded in New York",
     description:
-      "Ichiro Hayashida establishes Hayashida Securities in Tokyo, beginning a legacy of trust, integrity, and long-term thinking in Japanese capital markets.",
+      "Edward Meridian establishes Meridian Securities in New York, beginning a legacy of trust, integrity, and long-term thinking in American capital markets.",
   },
   {
     year: "1952",
-    title: "Listed on the Tokyo Stock Exchange",
+    title: "Listed on the New York Stock Exchange",
     description:
-      "Hayashida Securities becomes a publicly listed company on the Tokyo Stock Exchange, marking a new chapter in its growth and corporate governance.",
+      "Meridian Securities becomes a publicly listed company on the New York Stock Exchange, marking a new chapter in its growth and corporate governance.",
   },
   {
     year: "1964",
@@ -30,19 +30,19 @@ const milestones = [
     year: "1972",
     title: "First International Office",
     description:
-      "Hayashida opens its first international office in London, establishing a foothold in European financial markets and laying the groundwork for global expansion.",
+      "Meridian opens its first international office in London, establishing a foothold in European financial markets and laying the groundwork for global expansion.",
   },
   {
     year: "1985",
     title: "Asset Management Division Launched",
     description:
-      "The launch of a dedicated Asset Management division marks Hayashida's entry into institutional portfolio management, offering equities, fixed income, and multi-asset strategies.",
+      "The launch of a dedicated Asset Management division marks Meridian's entry into institutional portfolio management, offering equities, fixed income, and multi-asset strategies.",
   },
   {
     year: "1990",
-    title: "New York & Hong Kong Offices",
+    title: "Frankfurt & Hong Kong Offices",
     description:
-      "Hayashida establishes offices in New York and Hong Kong, creating a truly global trading and advisory network spanning three major financial time zones.",
+      "Meridian establishes offices in Frankfurt and Hong Kong, creating a truly global trading and advisory network spanning three major financial time zones.",
   },
   {
     year: "1998",
@@ -54,13 +54,13 @@ const milestones = [
     year: "2003",
     title: "Wealth Management Division Launched",
     description:
-      "Hayashida launches its Wealth Management division, providing comprehensive advisory and portfolio services to high-net-worth and ultra-high-net-worth clients.",
+      "Meridian launches its Wealth Management division, providing comprehensive advisory and portfolio services to high-net-worth and ultra-high-net-worth clients.",
   },
   {
     year: "2008",
     title: "Resilience Through the Global Financial Crisis",
     description:
-      "Disciplined risk controls and a conservative balance sheet allow Hayashida to weather the Global Financial Crisis, reinforcing the firm's reputation for stability and prudent stewardship.",
+      "Disciplined risk controls and a conservative balance sheet allow Meridian to weather the Global Financial Crisis, reinforcing the firm's reputation for stability and prudent stewardship.",
   },
   {
     year: "2012",
@@ -70,15 +70,15 @@ const milestones = [
   },
   {
     year: "2015",
-    title: "AUM Surpasses ¥30 Trillion",
+    title: "AUM Surpasses $200 Billion",
     description:
-      "Assets under management across the Asset Management and Wealth Management divisions surpass ¥30 trillion, reflecting sustained client confidence and investment performance.",
+      "Assets under management across the Asset Management and Wealth Management divisions surpass $200 billion, reflecting sustained client confidence and investment performance.",
   },
   {
     year: "2019",
     title: "Sustainability & ESG Practice Established",
     description:
-      "Hayashida formalizes its commitment to sustainable finance by establishing a dedicated Sustainability and ESG practice, integrating environmental, social, and governance factors across the firm.",
+      "Meridian formalizes its commitment to sustainable finance by establishing a dedicated Sustainability and ESG practice, integrating environmental, social, and governance factors across the firm.",
   },
   {
     year: "2023",
@@ -90,13 +90,13 @@ const milestones = [
     year: "2024",
     title: "Horizon 2027 Initiative Launched",
     description:
-      "Hayashida launches Horizon 2027, a firm-wide technology modernization initiative targeting a 40% reduction in infrastructure costs through cloud-native platforms, AI-driven analytics, and modern data architecture.",
+      "Meridian launches Horizon 2027, a firm-wide technology modernization initiative targeting a 40% reduction in infrastructure costs through cloud-native platforms, AI-driven analytics, and modern data architecture.",
   },
   {
     year: "2025",
     title: "500 Million Daily Risk Simulations",
     description:
-      "The firm achieves a milestone of 500 million daily risk simulations and expands its London Technology Hub, further solidifying Hayashida's position at the frontier of quantitative finance and technology.",
+      "The firm achieves a milestone of 500 million daily risk simulations and expands its London Technology Hub, further solidifying Meridian's position at the frontier of quantitative finance and technology.",
   },
 ];
 
@@ -117,13 +117,13 @@ export default function HistoryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-20">
             <h2 className="text-3xl lg:text-4xl font-bold text-navy-900">
-              From Tokyo to the World
+              From Wall Street to the World
             </h2>
             <p className="mt-6 text-gray-600 text-lg leading-relaxed">
               What began as a small securities firm in 1926 has grown into one of
               the world&apos;s leading financial institutions. Through decades of
               disciplined growth, strategic innovation, and unwavering
-              commitment to our clients, Hayashida Group has navigated wars,
+              commitment to our clients, Meridian Capital Group has navigated wars,
               crises, and revolutions in technology — emerging stronger each
               time.
             </p>
@@ -222,7 +222,7 @@ export default function HistoryPage() {
             The Next Chapter
           </h2>
           <p className="mt-4 text-navy-300 text-lg max-w-2xl mx-auto leading-relaxed">
-            As we approach our centennial in 2026, Hayashida Group is more
+            As we approach our centennial in 2026, Meridian Capital Group is more
             focused than ever on innovation, sustainability, and delivering
             exceptional value to our clients. Through Horizon 2027, we are
             building the infrastructure, capabilities, and culture to lead

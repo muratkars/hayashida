@@ -15,14 +15,14 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Wealth Management",
   description:
-    "Hayashida Group Wealth Management provides comprehensive advisory, portfolio management, and financial planning services for high-net-worth and ultra-high-net-worth clients worldwide.",
+    "Meridian Capital Group Wealth Management provides comprehensive advisory, portfolio management, and financial planning services for high-net-worth and ultra-high-net-worth clients worldwide.",
 };
 
 const services = [
   {
     title: "Investment Advisory",
     description:
-      "Personalized investment strategies tailored to each client's risk profile, return objectives, and liquidity needs. Our advisors leverage Hayashida's global market insights and proprietary research to construct diversified portfolios across asset classes.",
+      "Personalized investment strategies tailored to each client's risk profile, return objectives, and liquidity needs. Our advisors leverage Meridian's global market insights and proprietary research to construct diversified portfolios across asset classes.",
     icon: TrendingUp,
   },
   {
@@ -46,7 +46,7 @@ const services = [
 ];
 
 const stats = [
-  { label: "Assets Under Management", value: "¥8.2T" },
+  { label: "Assets Under Management", value: "$56B" },
   { label: "Relationship Managers", value: "480+" },
   { label: "Client Families", value: "4,200+" },
   { label: "Markets Served", value: "12" },
@@ -57,7 +57,7 @@ export default function WealthManagementPage() {
     <>
       <PageHeader
         title="Wealth Management"
-        subtitle="Comprehensive wealth solutions for high-net-worth and ultra-high-net-worth individuals and families, with ¥8.2 trillion in assets under management."
+        subtitle="Comprehensive wealth solutions for high-net-worth and ultra-high-net-worth individuals and families, with $56 billion in assets under management."
         breadcrumbs={[
           { label: "Divisions", href: "/divisions" },
           { label: "Wealth Management" },
@@ -88,9 +88,9 @@ export default function WealthManagementPage() {
           <div className="max-w-3xl">
             <h2 className="text-3xl font-bold text-navy-900">Overview</h2>
             <p className="mt-6 text-gray-600 leading-relaxed text-lg">
-              Hayashida Wealth Management serves high-net-worth and
+              Meridian Wealth Management serves high-net-worth and
               ultra-high-net-worth individuals and families with investable
-              assets typically exceeding ¥500 million ($3.3 million USD). Our
+              assets typically exceeding $3.3 million. Our
               holistic approach integrates investment management, estate
               planning, tax optimization, and lifestyle services into a
               seamless client experience.
@@ -98,7 +98,7 @@ export default function WealthManagementPage() {
             <p className="mt-4 text-gray-600 leading-relaxed">
               With dedicated relationship managers in 12 markets across
               Asia-Pacific, Europe, and the Americas, we combine deep local
-              expertise with the full resources of Hayashida Group&apos;s
+              expertise with the full resources of Meridian Capital Group&apos;s
               global platform. Our clients benefit from access to
               institutional-quality research, exclusive investment
               opportunities, and a curated network of professional advisors.
@@ -141,7 +141,7 @@ export default function WealthManagementPage() {
             <div>
               <div className="flex items-center gap-3 mb-6">
                 <Smartphone className="w-6 h-6 text-accent-red" />
-                <h2 className="text-3xl font-bold">Hayashida Insights</h2>
+                <h2 className="text-3xl font-bold">Meridian Insights</h2>
               </div>
               <p className="text-navy-300 text-lg leading-relaxed mb-6">
                 Our next-generation digital advisory platform provides clients
@@ -150,12 +150,12 @@ export default function WealthManagementPage() {
                 available on web and mobile.
               </p>
               <p className="text-navy-300 leading-relaxed mb-8">
-                Launched in 2025, Hayashida Insights leverages machine learning
+                Launched in 2025, Meridian Insights leverages machine learning
                 models trained on our proprietary market research to deliver
                 actionable insights tailored to each client&apos;s portfolio
                 and objectives. The platform currently serves clients in
-                Singapore, Hong Kong, and Tokyo, with expansion to London and
-                New York planned for 2026.
+                New York, London, and Frankfurt, with expansion to Singapore and
+                Hong Kong planned for 2026.
               </p>
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-navy-800/50 border border-navy-700 rounded-lg p-5">
@@ -206,19 +206,19 @@ export default function WealthManagementPage() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-navy-900">
-                  Haruki Sato
+                  Michael Sato
                 </h3>
                 <p className="text-gray-500">Head of Wealth Management</p>
               </div>
             </div>
             <p className="text-gray-600 leading-relaxed">
-              Haruki Sato leads Hayashida&apos;s Wealth Management division,
+              Michael Sato leads Meridian&apos;s Wealth Management division,
               overseeing client relationships, product strategy, and the
               division&apos;s digital transformation. Under his leadership,
-              assets under management have grown to ¥8.2 trillion, and the
-              division launched its Hayashida Insights digital advisory
-              platform. A 20-year veteran of the firm, Sato-san previously
-              led the Asia-Pacific private banking team and holds an MBA from
+              assets under management have grown to $56 billion, and the
+              division launched its Meridian Insights digital advisory
+              platform. A 20-year veteran of the firm, Sato previously
+              led the Americas private banking team and holds an MBA from
               the Wharton School.
             </p>
           </div>

@@ -58,11 +58,11 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 shrink-0">
             <div className="w-8 h-8 bg-accent-red rounded-sm flex items-center justify-center font-bold text-sm">
-              H
+              M
             </div>
             <div className="leading-tight">
-              <div className="font-semibold text-sm lg:text-base tracking-wide">HAYASHIDA GROUP</div>
-              <div className="text-[10px] lg:text-xs text-navy-300 tracking-widest">林田グループ</div>
+              <div className="font-semibold text-sm lg:text-base tracking-wide">MERIDIAN CAPITAL GROUP</div>
+              <div className="text-[10px] lg:text-xs text-navy-300 tracking-widest">Est. 1926 · New York</div>
             </div>
           </Link>
 

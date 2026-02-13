@@ -4,28 +4,28 @@ import { ArrowRight, TrendingUp, Banknote, Building2, PiggyBank, Target } from "
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Investor Relations | Hayashida Group",
+  title: "Investor Relations | Meridian Capital Group",
   description:
-    "Investor relations information for Hayashida Group (TSE: 8604), including financial highlights, strategic priorities, presentations, and shareholder resources.",
+    "Investor relations information for Meridian Capital Group (NYSE: MRDN), including financial highlights, strategic priorities, presentations, and shareholder resources.",
 };
 
 const financialHighlights = [
   {
     label: "Revenue",
-    value: "¥1.8T",
-    description: "Consolidated revenue for FY2025",
+    value: "$12.4B",
+    description: "Consolidated revenue for FY2026",
     icon: TrendingUp,
   },
   {
     label: "Net Income",
-    value: "¥230B",
+    value: "$1.6B",
     description: "Attributable to shareholders",
     icon: Banknote,
   },
   {
-    label: "TSE Prime Market",
-    value: "8604",
-    description: "Tokyo Stock Exchange listing code",
+    label: "NYSE",
+    value: "MRDN",
+    description: "New York Stock Exchange ticker",
     icon: Building2,
   },
   {
@@ -57,7 +57,7 @@ export default function InvestorOverviewPage() {
               Financial Highlights
             </h2>
             <p className="mt-4 text-gray-600 max-w-2xl">
-              Key financial metrics reflecting Hayashida Group&apos;s strong
+              Key financial metrics reflecting Meridian Capital Group&apos;s strong
               market position and commitment to shareholder value.
             </p>
           </div>
@@ -94,7 +94,7 @@ export default function InvestorOverviewPage() {
                 Horizon 2027
               </h2>
               <p className="mt-6 text-gray-600 text-lg leading-relaxed">
-                Horizon 2027 is Hayashida Group&apos;s three-year strategic plan
+                Horizon 2027 is Meridian Capital Group&apos;s three-year strategic plan
                 to accelerate digital transformation, modernize our technology
                 infrastructure, and expand our capabilities across all business
                 divisions.
@@ -103,8 +103,8 @@ export default function InvestorOverviewPage() {
                 The initiative encompasses infrastructure migration, AI and
                 machine learning investment, and a comprehensive technology
                 modernization program targeting a 40% reduction in total cost of
-                ownership. With annual technology spend of approximately ¥42
-                billion, Hayashida is committing significant resources to ensure
+                ownership. With annual technology spend of approximately $290
+                million, Meridian is committing significant resources to ensure
                 our platforms remain best-in-class.
               </p>
               <p className="mt-4 text-gray-600 leading-relaxed">
@@ -125,7 +125,7 @@ export default function InvestorOverviewPage() {
                   </div>
                 </div>
                 <div className="border-b border-navy-700 pb-4">
-                  <div className="text-2xl font-bold text-accent-red">¥42B</div>
+                  <div className="text-2xl font-bold text-accent-red">$290M</div>
                   <div className="text-sm text-navy-300 mt-1">
                     Annual technology spend (2.3% of revenue)
                   </div>
@@ -176,16 +176,16 @@ export default function InvestorOverviewPage() {
                 Stock Information
               </h3>
               <p className="mt-3 text-gray-600 text-sm leading-relaxed">
-                Hayashida Group is listed on the Tokyo Stock Exchange Prime
-                Market under the ticker symbol 8604. We maintain a dividend
+                Meridian Capital Group is listed on the New York Stock Exchange
+                under the ticker symbol MRDN. We maintain a dividend
                 payout ratio of approximately 40%, reflecting our commitment to
                 consistent shareholder returns.
               </p>
               <div className="mt-5 flex items-center gap-4 text-sm">
                 <span className="bg-navy-900 text-white font-mono px-3 py-1 rounded text-xs">
-                  TSE: 8604
+                  NYSE: MRDN
                 </span>
-                <span className="text-gray-500">Prime Market</span>
+                <span className="text-gray-500">New York Stock Exchange</span>
               </div>
             </div>
           </div>
@@ -200,7 +200,7 @@ export default function InvestorOverviewPage() {
           </h2>
           <p className="mt-4 text-navy-300 max-w-2xl mx-auto">
             For questions regarding financial results, shareholder services, or
-            Hayashida Group&apos;s strategic direction, please contact our
+            Meridian Capital Group&apos;s strategic direction, please contact our
             Investor Relations team.
           </p>
           <div className="mt-8">

@@ -16,14 +16,14 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Global Markets",
   description:
-    "Hayashida Group Global Markets offers institutional clients deep liquidity and execution across fixed income, equities, foreign exchange, commodities, and derivatives.",
+    "Meridian Capital Group Global Markets offers institutional clients deep liquidity and execution across fixed income, equities, foreign exchange, commodities, and derivatives.",
 };
 
 const products = [
   {
     title: "Fixed Income",
     description:
-      "Government bonds, corporate credit, securitized products, and emerging market debt. Our rates and credit desks provide pricing and liquidity across the full spectrum of fixed income instruments, with particular strength in JGB and Asian credit markets.",
+      "Government bonds, corporate credit, securitized products, and emerging market debt. Our rates and credit desks provide pricing and liquidity across the full spectrum of fixed income instruments, with particular strength in US Treasury and investment-grade credit markets.",
     icon: BarChart3,
   },
   {
@@ -35,7 +35,7 @@ const products = [
   {
     title: "Foreign Exchange",
     description:
-      "Spot, forwards, swaps, and options across G10 and emerging market currencies. Our FX franchise is one of the top five liquidity providers in JPY and ranks among the largest in the APAC region by daily turnover.",
+      "Spot, forwards, swaps, and options across G10 and emerging market currencies. Our FX franchise is one of the top liquidity providers in USD and EUR, ranking among the largest in the Americas and EMEA by daily turnover.",
     icon: Globe2,
   },
   {
@@ -96,7 +96,7 @@ export default function GlobalMarketsPage() {
           <div className="max-w-3xl">
             <h2 className="text-3xl font-bold text-navy-900">Overview</h2>
             <p className="mt-6 text-gray-600 leading-relaxed text-lg">
-              Hayashida Group&apos;s Global Markets division connects buyers and sellers across every major asset class, providing the liquidity, execution quality, and market insight that our institutional clients depend on.
+              Meridian Capital Group&apos;s Global Markets division connects buyers and sellers across every major asset class, providing the liquidity, execution quality, and market insight that our institutional clients depend on.
             </p>
             <p className="mt-4 text-gray-600 leading-relaxed">
               In the most recent fiscal year, the division achieved record APAC trading volumes exceeding $2.8 trillion on a quarterly basis, reflecting the continued growth of our electronic trading capabilities and expanding client franchise. Our sales and trading professionals operate from 15 trading floors worldwide, ensuring continuous market coverage across all time zones.
@@ -158,7 +158,7 @@ export default function GlobalMarketsPage() {
                 <h2 className="text-3xl font-bold">Electronic Trading Platform</h2>
               </div>
               <p className="text-navy-300 text-lg leading-relaxed mb-6">
-                Our proprietary electronic trading platform, HayashidaConnect, processes over 3 million orders per day across equities, fixed income, and FX. The platform leverages ultra-low-latency infrastructure and advanced smart order routing to deliver optimal execution for clients.
+                Our proprietary electronic trading platform, MeridianConnect, processes over 3 million orders per day across equities, fixed income, and FX. The platform leverages ultra-low-latency infrastructure and advanced smart order routing to deliver optimal execution for clients.
               </p>
               <p className="text-navy-300 leading-relaxed mb-8">
                 68% of our total order flow is now executed electronically, up from 45% just three years ago. We continue to invest heavily in algorithmic trading strategies, transaction cost analysis, and real-time analytics to stay at the forefront of electronic market making.
@@ -216,12 +216,12 @@ export default function GlobalMarketsPage() {
                 <Users className="w-8 h-8 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-navy-900">Takeshi Mori</h3>
+                <h3 className="text-xl font-bold text-navy-900">James Morgan</h3>
                 <p className="text-gray-500">Global Head of Markets</p>
               </div>
             </div>
             <p className="text-gray-600 leading-relaxed">
-              Takeshi Mori leads the Global Markets division, overseeing sales, trading, and market making across all asset classes. A 20-year veteran of the firm, Mori-san previously headed the Fixed Income and Currencies business and was instrumental in building Hayashida&apos;s electronic trading platform from the ground up. He is recognized as a thought leader in APAC capital markets and serves on multiple industry advisory boards.
+              James Morgan leads the Global Markets division, overseeing sales, trading, and market making across all asset classes. A 20-year veteran of the firm, Morgan previously headed the Fixed Income and Currencies business and was instrumental in building Meridian&apos;s electronic trading platform from the ground up. He is recognized as a thought leader in APAC capital markets and serves on multiple industry advisory boards.
             </p>
           </div>
         </div>

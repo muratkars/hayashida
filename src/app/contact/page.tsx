@@ -3,26 +3,26 @@ import { MapPin, Mail, Phone, Clock } from "lucide-react";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Hayashida Group",
+  title: "Contact Us | Meridian Capital Group",
   description:
-    "Get in touch with Hayashida Group. Find office locations, contact details, and submit inquiries for our global financial services teams.",
+    "Get in touch with Meridian Capital Group. Find office locations, contact details, and submit inquiries for our global financial services teams.",
 };
 
 const offices = [
   {
-    city: "Tokyo (Headquarters)",
-    address: "Otemachi Tower, 1-5-1 Otemachi, Chiyoda-ku, Tokyo 100-0004",
-    phone: "+81-3-5200-0000",
+    city: "New York (Headquarters)",
+    address: "One World Financial Center, 200 Liberty Street, New York, NY 10281",
+    phone: "+1-212-000-0000",
+  },
+  {
+    city: "Frankfurt",
+    address: "Taunusanlage 12, 60325 Frankfurt am Main, Germany",
+    phone: "+49-69-000-0000",
   },
   {
     city: "London",
     address: "1 Angel Lane, London EC4R 3AB",
     phone: "+44-20-7000-0000",
-  },
-  {
-    city: "New York",
-    address: "383 Madison Avenue, New York, NY 10179",
-    phone: "+1-212-000-0000",
   },
   {
     city: "Hong Kong",
@@ -155,10 +155,10 @@ export default function ContactPage() {
                       Email
                     </div>
                     <a
-                      href="mailto:info@hayashidagroup.com"
+                      href="mailto:info@meridiancapitalgroup.com"
                       className="text-sm text-gray-600 hover:text-accent-red transition-colors"
                     >
-                      info@hayashidagroup.com
+                      info@meridiancapitalgroup.com
                     </a>
                   </div>
                 </div>
@@ -169,7 +169,7 @@ export default function ContactPage() {
                       Phone
                     </div>
                     <span className="text-sm text-gray-600">
-                      +81-3-5200-0000
+                      +1-212-000-0000
                     </span>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ export default function ContactPage() {
                       Business Hours
                     </div>
                     <span className="text-sm text-gray-600">
-                      Mon - Fri, 9:00 AM - 6:00 PM JST
+                      Mon - Fri, 8:00 AM - 6:00 PM EST
                     </span>
                   </div>
                 </div>

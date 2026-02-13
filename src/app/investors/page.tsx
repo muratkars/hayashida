@@ -6,7 +6,7 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Investor Relations",
   description:
-    "Investor relations information for Hayashida Group (TSE: 8604), including financial highlights, strategic priorities, presentations, and shareholder resources.",
+    "Investor relations information for Meridian Capital Group (NYSE: MRDN), including financial highlights, strategic priorities, presentations, and shareholder resources.",
 };
 
 export default function InvestorsPage() {

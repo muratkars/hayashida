@@ -7,7 +7,7 @@ import { newsArticles } from "@/data/news";
 export const metadata: Metadata = {
   title: "Newsroom",
   description:
-    "The latest press releases, announcements, and news from Hayashida Group across our global operations.",
+    "The latest press releases, announcements, and news from Meridian Capital Group across our global operations.",
 };
 
 export default function NewsroomPage() {
@@ -19,7 +19,7 @@ export default function NewsroomPage() {
     <>
       <PageHeader
         title="Newsroom"
-        subtitle="Press releases, announcements, and the latest updates from Hayashida Group."
+        subtitle="Press releases, announcements, and the latest updates from Meridian Capital Group."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Newsroom" },

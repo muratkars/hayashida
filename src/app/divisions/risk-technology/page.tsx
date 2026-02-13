@@ -26,7 +26,7 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Risk & Technology",
   description:
-    "Hayashida Group Risk & Technology division provides enterprise risk management, quantitative analytics, and next-generation technology infrastructure powering the firm's global operations. Over 500 million risk simulations daily.",
+    "Meridian Capital Group Risk & Technology division provides enterprise risk management, quantitative analytics, and next-generation technology infrastructure powering the firm's global operations. Over 500 million risk simulations daily.",
   keywords: [
     "enterprise risk management",
     "quantitative risk analytics",
@@ -74,7 +74,7 @@ export default function RiskTechnologyPage() {
     <>
       <PageHeader
         title="Risk & Technology"
-        subtitle="Powering enterprise risk management, quantitative analytics, and technology infrastructure across Hayashida Group's global operations."
+        subtitle="Powering enterprise risk management, quantitative analytics, and technology infrastructure across Meridian Capital Group's global operations."
         breadcrumbs={[
           { label: "Divisions", href: "/divisions" },
           { label: "Risk & Technology" },
@@ -109,13 +109,13 @@ export default function RiskTechnologyPage() {
               <h2 className="text-3xl font-bold text-navy-900">Division Overview</h2>
             </div>
             <p className="text-gray-600 leading-relaxed text-lg">
-              The Risk & Technology division serves as the backbone of Hayashida Group, providing the enterprise risk management framework and technology infrastructure that underpin every business activity across the firm. Our mandate is to safeguard the firm&apos;s financial resilience while enabling innovation and operational excellence at global scale.
+              The Risk & Technology division serves as the backbone of Meridian Capital Group, providing the enterprise risk management framework and technology infrastructure that underpin every business activity across the firm. Our mandate is to safeguard the firm&apos;s financial resilience while enabling innovation and operational excellence at global scale.
             </p>
             <p className="mt-4 text-gray-600 leading-relaxed">
               With over 1,800 technology and risk professionals across six global data centers, this division operates the quantitative models, data platforms, and mission-critical systems that support trading, lending, investment management, and regulatory reporting. We are responsible for ensuring that risk is measured, monitored, and managed with the precision and speed demanded by modern global financial markets.
             </p>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              In an era of exponential data growth, increasingly complex financial instruments, and evolving regulatory requirements, the division is leading a multi-year transformation to modernize Hayashida&apos;s data infrastructure and risk analytics capabilities, positioning the firm for the next decade of growth.
+              In an era of exponential data growth, increasingly complex financial instruments, and evolving regulatory requirements, the division is leading a multi-year transformation to modernize Meridian&apos;s data infrastructure and risk analytics capabilities, positioning the firm for the next decade of growth.
             </p>
           </div>
         </div>
@@ -280,7 +280,7 @@ export default function RiskTechnologyPage() {
             Firm-Wide Digital Transformation Initiative
           </p>
           <p className="text-navy-300 text-lg leading-relaxed max-w-3xl mb-6">
-            Horizon 2027 is Hayashida Group&apos;s flagship digital transformation initiative, a comprehensive program to modernize the firm&apos;s entire data infrastructure and build an AI-ready analytics platform. The initiative represents one of the most ambitious technology transformation programs in Japanese financial services.
+            Horizon 2027 is Meridian Capital Group&apos;s flagship digital transformation initiative, a comprehensive program to modernize the firm&apos;s entire data infrastructure and build an AI-ready analytics platform. The initiative represents one of the most ambitious technology transformation programs in American financial services.
           </p>
           <p className="text-navy-300 leading-relaxed max-w-3xl mb-12">
             At its core, Horizon 2027 involves the migration from legacy NAS/SAN storage to cloud-native, S3-compatible object storage, enabling the firm to unlock the full potential of its data assets. The program encompasses data lake architecture, real-time streaming pipelines, unified data governance, and the deployment of AI/ML infrastructure at enterprise scale. The targeted outcome is a 40% reduction in total cost of ownership for data infrastructure while simultaneously delivering a step-change improvement in performance, scalability, and analytical capability.
@@ -304,7 +304,7 @@ export default function RiskTechnologyPage() {
                 detail: "Phased rollout beginning 2025",
               },
               {
-                value: "¥45B",
+                value: "$310M",
                 label: "Total program investment",
                 detail: "Multi-year capital allocation",
               },
@@ -355,7 +355,7 @@ export default function RiskTechnologyPage() {
             </h2>
           </div>
           <p className="text-gray-600 leading-relaxed max-w-3xl mb-6">
-            As a global systemically important financial institution, Hayashida Group operates under the oversight of multiple regulatory authorities across jurisdictions. The Risk & Technology division is responsible for ensuring that the firm&apos;s data infrastructure and risk management practices meet or exceed the requirements of every applicable regulatory framework.
+            As a global systemically important financial institution, Meridian Capital Group operates under the oversight of multiple regulatory authorities across jurisdictions. The Risk & Technology division is responsible for ensuring that the firm&apos;s data infrastructure and risk management practices meet or exceed the requirements of every applicable regulatory framework.
           </p>
           <p className="text-gray-600 leading-relaxed max-w-3xl mb-12">
             Our regulatory technology stack provides data immutability through write-once-read-many (WORM) storage policies, comprehensive audit trails for every data modification and access event, and multi-region replication to satisfy data sovereignty requirements across all jurisdictions where the firm operates. These capabilities are critical for maintaining the trust of regulators, clients, and stakeholders.
@@ -411,9 +411,9 @@ export default function RiskTechnologyPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                regulator: "JFSA",
-                full: "Japan Financial Services Agency",
-                detail: "Primary regulator for all Japan-domiciled entities",
+                regulator: "SEC",
+                full: "Securities and Exchange Commission",
+                detail: "Primary regulator for all US-domiciled entities",
               },
               {
                 regulator: "MAS",
@@ -426,9 +426,9 @@ export default function RiskTechnologyPage() {
                 detail: "Regulation of UK and EMEA business activities",
               },
               {
-                regulator: "SEC",
-                full: "Securities and Exchange Commission",
-                detail: "Compliance for US broker-dealer and advisory operations",
+                regulator: "BaFin",
+                full: "Federal Financial Supervisory Authority",
+                detail: "Oversight of German and EU operations",
               },
             ].map((reg) => (
               <div
@@ -456,7 +456,7 @@ export default function RiskTechnologyPage() {
             </h2>
           </div>
           <p className="text-gray-600 leading-relaxed max-w-3xl mb-6">
-            Hayashida Group is investing heavily in artificial intelligence and machine learning to transform risk management, trading, and decision-making across the firm. The Risk & Technology division is building the foundational ML training pipelines and GPU cluster infrastructure required to support these ambitions at enterprise scale.
+            Meridian Capital Group is investing heavily in artificial intelligence and machine learning to transform risk management, trading, and decision-making across the firm. The Risk & Technology division is building the foundational ML training pipelines and GPU cluster infrastructure required to support these ambitions at enterprise scale.
           </p>
           <p className="text-gray-600 leading-relaxed max-w-3xl mb-12">
             Our AI research program spans multiple initiatives, from deploying large language models for market risk prediction and natural language processing of regulatory filings to training deep learning models for anomaly detection in trading patterns. The division operates dedicated GPU clusters optimized for distributed model training and is pioneering the application of transformer architectures to financial time-series data.
@@ -472,9 +472,9 @@ export default function RiskTechnologyPage() {
               },
               {
                 icon: Globe2,
-                title: "University of Tokyo Partnership",
+                title: "MIT Partnership",
                 description:
-                  "A strategic research partnership with the University of Tokyo's Department of Mathematical Informatics, focused on advancing the application of AI to financial risk modeling. Joint research areas include reinforcement learning for dynamic hedging, graph neural networks for counterparty risk, and generative models for scenario analysis.",
+                  "A strategic research partnership with the MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL), focused on advancing the application of AI to financial risk modeling. Joint research areas include reinforcement learning for dynamic hedging, graph neural networks for counterparty risk, and generative models for scenario analysis.",
               },
               {
                 icon: BarChart3,
@@ -537,13 +537,13 @@ export default function RiskTechnologyPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-navy-900">
-                    Yuki Hasegawa
+                    David Hasegawa
                   </h3>
                   <p className="text-gray-500">Chief Technology Officer</p>
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                Yuki Hasegawa serves as Chief Technology Officer of Hayashida Group, leading the firm&apos;s technology strategy, infrastructure, and digital transformation initiatives. With a background in distributed systems and computational finance, Hasegawa-san joined Hayashida from a major global technology company where she led cloud infrastructure engineering. She is the architect of the Horizon 2027 program and a recognized voice in the intersection of financial services and technology innovation.
+                David Hasegawa serves as Chief Technology Officer of Meridian Capital Group, leading the firm&apos;s technology strategy, infrastructure, and digital transformation initiatives. With a background in distributed systems and computational finance, Hasegawa joined Meridian from a major global technology company where he led cloud infrastructure engineering. He is the architect of the Horizon 2027 program and a recognized voice in the intersection of financial services and technology innovation.
               </p>
             </div>
             <div className="bg-gray-50 rounded-lg border border-gray-100 p-8 lg:p-10">

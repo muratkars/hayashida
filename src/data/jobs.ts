@@ -10,12 +10,12 @@ export interface JobListing {
 
 export const jobListings: JobListing[] = [
   {
-    id: "TK-2025-0142",
+    id: "NY-2025-0142",
     title: "Senior Storage Engineer — HDFS to Object Storage Migration",
-    location: "Tokyo, Japan",
+    location: "New York, United States",
     division: "Risk & Technology",
     type: "Full-time",
-    description: "Lead the migration of Hayashida's risk analytics data platform from legacy HDFS clusters to high-performance, S3-compatible object storage. Our current Hadoop infrastructure — spanning 8 PB across multiple aging clusters — faces mounting operational costs, scalability limits, and availability challenges that directly impact risk management SLAs. You will architect and execute the transition to a modern object storage platform that delivers higher storage density, improved availability, and significantly reduced total cost of ownership. This is a cornerstone role within the Horizon 2027 program.",
+    description: "Lead the migration of Meridian Capital Group's risk analytics data platform from legacy HDFS clusters to high-performance, S3-compatible object storage. Our current Hadoop infrastructure — spanning 8 PB across multiple aging clusters — faces mounting operational costs, scalability limits, and availability challenges that directly impact risk management SLAs. You will architect and execute the transition to a modern object storage platform that delivers higher storage density, improved availability, and significantly reduced total cost of ownership. This is a cornerstone role within the Horizon 2027 program.",
     requirements: [
       "7+ years of experience with distributed storage systems, including hands-on HDFS administration and operations",
       "Deep expertise in S3-compatible object storage platforms (MinIO strongly preferred) at petabyte scale",
@@ -23,16 +23,16 @@ export const jobListings: JobListing[] = [
       "Strong understanding of erasure coding, storage density optimization, and TCO modeling",
       "Proficiency in Linux systems administration, networking, and infrastructure automation (Terraform, Ansible)",
       "Experience with Kubernetes and containerized storage deployments in financial services environments",
-      "Familiarity with regulatory requirements for data immutability, retention, and auditability (JFSA, FCA, SEC)",
+      "Familiarity with regulatory requirements for data immutability, retention, and auditability (SEC, FCA, BaFin)",
     ],
   },
   {
-    id: "TK-2025-0188",
+    id: "NY-2025-0188",
     title: "Data Platform Architect — Dremio & Lakehouse",
-    location: "Tokyo, Japan",
+    location: "New York, United States",
     division: "Risk & Technology",
     type: "Full-time",
-    description: "Design and implement Hayashida's next-generation data lakehouse architecture using Dremio as the unified analytics engine on top of S3-compatible object storage. You will replace the firm's legacy Hive/HDFS-based analytics stack with a modern Dremio-powered lakehouse that enables self-service analytics, dramatically faster query performance, and direct access to risk data for quantitative analysts and data scientists. The target architecture must support sub-second interactive queries across petabytes of risk data while meeting strict SLA requirements for intraday and end-of-day risk reporting.",
+    description: "Design and implement Meridian Capital Group's next-generation data lakehouse architecture using Dremio as the unified analytics engine on top of S3-compatible object storage. You will replace the firm's legacy Hive/HDFS-based analytics stack with a modern Dremio-powered lakehouse that enables self-service analytics, dramatically faster query performance, and direct access to risk data for quantitative analysts and data scientists. The target architecture must support sub-second interactive queries across petabytes of risk data while meeting strict SLA requirements for intraday and end-of-day risk reporting.",
     requirements: [
       "5+ years of experience as a data architect or senior data engineer in financial services",
       "Hands-on production experience with Dremio, including query optimization, reflections, and Arctic catalog",
@@ -49,7 +49,7 @@ export const jobListings: JobListing[] = [
     location: "London, United Kingdom",
     division: "Risk & Technology",
     type: "Full-time",
-    description: "Build and operate ML training and inference pipelines on GPU clusters backed by high-throughput S3-compatible object storage, replacing the existing HDFS-based data layer that has become a bottleneck for model training at scale. You will work with quantitative researchers to deliver platforms for training financial risk models — including deep learning models for market risk prediction and Monte Carlo acceleration. The storage layer must sustain 200+ GB/s aggregate read throughput to keep GPU clusters fully utilized during distributed training runs. This role is part of Hayashida's London Technology Hub expansion under the Horizon 2027 initiative.",
+    description: "Build and operate ML training and inference pipelines on GPU clusters backed by high-throughput S3-compatible object storage, replacing the existing HDFS-based data layer that has become a bottleneck for model training at scale. You will work with quantitative researchers to deliver platforms for training financial risk models — including deep learning models for market risk prediction and Monte Carlo acceleration. The storage layer must sustain 200+ GB/s aggregate read throughput to keep GPU clusters fully utilized during distributed training runs. This role is part of Meridian Capital Group's London Technology Hub expansion under the Horizon 2027 initiative.",
     requirements: [
       "4+ years of experience building ML platforms or MLOps infrastructure",
       "Experience with GPU compute clusters (NVIDIA A100/H100) and distributed training frameworks (PyTorch, Horovod)",
@@ -66,7 +66,7 @@ export const jobListings: JobListing[] = [
     location: "New York, United States",
     division: "Risk & Technology",
     type: "Full-time",
-    description: "Lead the migration of Hayashida's risk analytics data pipelines from legacy Hadoop/HDFS to a modern lakehouse architecture built on Dremio and S3-compatible object storage. Our current HDFS environment processes over 500 million daily risk simulations but suffers from cluster sprawl, poor storage density, high operational overhead, and availability issues that threaten risk management SLAs. You will design the target-state data architecture, build migration tooling, and ensure zero-downtime cutover for mission-critical risk reporting workloads including intraday VaR, stress testing, and regulatory submissions.",
+    description: "Lead the migration of Meridian Capital Group's risk analytics data pipelines from legacy Hadoop/HDFS to a modern lakehouse architecture built on Dremio and S3-compatible object storage. Our current HDFS environment processes over 500 million daily risk simulations but suffers from cluster sprawl, poor storage density, high operational overhead, and availability issues that threaten risk management SLAs. You will design the target-state data architecture, build migration tooling, and ensure zero-downtime cutover for mission-critical risk reporting workloads including intraday VaR, stress testing, and regulatory submissions.",
     requirements: [
       "7+ years of experience in data engineering, with at least 3 years in financial services",
       "Production experience migrating data pipelines from HDFS/Hive to Dremio on S3-compatible object storage",
@@ -78,12 +78,12 @@ export const jobListings: JobListing[] = [
     ],
   },
   {
-    id: "TK-2025-0195",
+    id: "NY-2025-0195",
     title: "Infrastructure Engineer — Storage Density & TCO Optimization",
-    location: "Tokyo, Japan",
+    location: "New York, United States",
     division: "Risk & Technology",
     type: "Full-time",
-    description: "Drive storage infrastructure optimization as part of Hayashida's Horizon 2027 initiative, with a mandate to increase storage density by 3x and reduce total cost of ownership by 40% compared to the firm's current HDFS deployment. You will evaluate and benchmark high-density storage hardware configurations, optimize erasure coding ratios, implement tiered storage lifecycle policies, and build comprehensive TCO models that account for hardware, power, cooling, rack space, and operational labor. The role directly supports the firm's migration from Hadoop to S3-compatible object storage.",
+    description: "Drive storage infrastructure optimization as part of Meridian Capital Group's Horizon 2027 initiative, with a mandate to increase storage density by 3x and reduce total cost of ownership by 40% compared to the firm's current HDFS deployment. You will evaluate and benchmark high-density storage hardware configurations, optimize erasure coding ratios, implement tiered storage lifecycle policies, and build comprehensive TCO models that account for hardware, power, cooling, rack space, and operational labor. The role directly supports the firm's migration from Hadoop to S3-compatible object storage.",
     requirements: [
       "5+ years of experience in storage infrastructure engineering or capacity planning",
       "Hands-on experience comparing TCO of HDFS vs. S3-compatible object storage (MinIO preferred)",
@@ -95,12 +95,12 @@ export const jobListings: JobListing[] = [
     ],
   },
   {
-    id: "TK-2025-0156",
+    id: "NY-2025-0156",
     title: "Quantitative Risk Analyst — Monte Carlo Methods",
-    location: "Tokyo, Japan",
+    location: "New York, United States",
     division: "Risk & Technology",
     type: "Full-time",
-    description: "Develop and optimize Monte Carlo simulation models for market risk, counterparty credit risk, and stress testing across Hayashida's global portfolio. Work closely with the data platform team to ensure risk models leverage the new Dremio-based lakehouse for rapid data access, and that simulation output is written efficiently to S3-compatible object storage for downstream analytics and regulatory reporting.",
+    description: "Develop and optimize Monte Carlo simulation models for market risk, counterparty credit risk, and stress testing across Meridian Capital Group's global portfolio. Work closely with the data platform team to ensure risk models leverage the new Dremio-based lakehouse for rapid data access, and that simulation output is written efficiently to S3-compatible object storage for downstream analytics and regulatory reporting.",
     requirements: [
       "Ph.D. or Master's in Financial Mathematics, Statistics, or related quantitative field",
       "3+ years of experience in quantitative risk modeling at a financial institution",
@@ -116,7 +116,7 @@ export const jobListings: JobListing[] = [
     location: "London, United Kingdom",
     division: "Risk & Technology",
     type: "Full-time",
-    description: "Administer and optimize Hayashida's enterprise Dremio deployment, which serves as the primary analytics query engine for risk management, trading analytics, and regulatory reporting across the firm. The platform sits on top of S3-compatible object storage (replacing legacy HDFS/Hive) and must deliver sub-second query latency for interactive analytics while supporting heavy batch workloads for end-of-day risk computations. You will manage Dremio cluster scaling, reflection optimization, Arctic catalog governance, and integration with downstream BI and reporting tools.",
+    description: "Administer and optimize Meridian Capital Group's enterprise Dremio deployment, which serves as the primary analytics query engine for risk management, trading analytics, and regulatory reporting across the firm. The platform sits on top of S3-compatible object storage (replacing legacy HDFS/Hive) and must deliver sub-second query latency for interactive analytics while supporting heavy batch workloads for end-of-day risk computations. You will manage Dremio cluster scaling, reflection optimization, Arctic catalog governance, and integration with downstream BI and reporting tools.",
     requirements: [
       "3+ years of hands-on Dremio administration experience in a production environment",
       "Deep understanding of Dremio reflections, query planning, and performance tuning",
@@ -139,7 +139,7 @@ export const jobListings: JobListing[] = [
       "Strong financial modeling and valuation skills",
       "Established client relationships in the ASEAN technology ecosystem",
       "MBA or equivalent advanced degree preferred",
-      "Fluency in English; Mandarin or Japanese language skills are a plus",
+      "Fluency in English; Mandarin or German language skills are a plus",
     ],
   },
   {
@@ -163,7 +163,7 @@ export const jobListings: JobListing[] = [
     location: "London, United Kingdom",
     division: "Risk & Technology",
     type: "Full-time",
-    description: "Ensure the availability, performance, and SLA compliance of Hayashida's data storage and analytics infrastructure, including the firm's S3-compatible object storage clusters and Dremio query platform. Our current HDFS-based infrastructure has experienced availability issues that have impacted risk management SLAs — this role is critical to ensuring the new platform delivers the 99.99% uptime that our risk and regulatory reporting systems require. You will design monitoring, alerting, capacity planning, and incident response capabilities for the firm's modernized data infrastructure.",
+    description: "Ensure the availability, performance, and SLA compliance of Meridian Capital Group's data storage and analytics infrastructure, including the firm's S3-compatible object storage clusters and Dremio query platform. Our current HDFS-based infrastructure has experienced availability issues that have impacted risk management SLAs — this role is critical to ensuring the new platform delivers the 99.99% uptime that our risk and regulatory reporting systems require. You will design monitoring, alerting, capacity planning, and incident response capabilities for the firm's modernized data infrastructure.",
     requirements: [
       "5+ years of SRE or production engineering experience",
       "Experience operating distributed storage systems (HDFS, S3-compatible object storage) at petabyte scale",
@@ -174,19 +174,19 @@ export const jobListings: JobListing[] = [
     ],
   },
   {
-    id: "TK-2025-0163",
+    id: "NY-2025-0163",
     title: "Compliance Analyst — Data Governance",
-    location: "Tokyo, Japan",
+    location: "New York, United States",
     division: "Compliance",
     type: "Full-time",
-    description: "Support Hayashida Group's data governance and regulatory compliance programs across JFSA, FCA, SEC, and MAS jurisdictions. Ensure that the firm's migration from HDFS to S3-compatible object storage maintains full compliance with data sovereignty, retention, immutability, and auditability requirements. Work with the Dremio platform team to implement access controls, data classification, and lineage tracking in the new lakehouse environment.",
+    description: "Support Meridian Capital Group's data governance and regulatory compliance programs across SEC, FCA, BaFin, and MAS jurisdictions. Ensure that the firm's migration from HDFS to S3-compatible object storage maintains full compliance with data sovereignty, retention, immutability, and auditability requirements. Work with the Dremio platform team to implement access controls, data classification, and lineage tracking in the new lakehouse environment.",
     requirements: [
       "3+ years of experience in compliance or data governance at a financial institution",
-      "Knowledge of data protection regulations (JFSA guidelines, GDPR, SEC Rule 17a-4)",
+      "Knowledge of data protection regulations (GDPR, SEC Rule 17a-4, BaFin MaRisk)",
       "Understanding of data management principles including data lineage, classification, and retention",
       "Experience evaluating compliance implications of data platform migrations (e.g., HDFS to object storage)",
       "Familiarity with data governance features in Dremio, Apache Iceberg, or similar platforms",
-      "Japanese language proficiency required; English proficiency required",
+      "English proficiency required; German language skills are a plus",
     ],
   },
 ];

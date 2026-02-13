@@ -4,37 +4,37 @@ import { ArrowRight, Users, History, Globe2, Target, Compass, Handshake, Trendin
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "About Hayashida Group",
+  title: "About Meridian Capital Group",
   description:
-    "Founded in 1926, Hayashida Group is a leading global financial services firm headquartered in Tokyo, Japan. Learn about our history, leadership, values, and global presence across 30+ countries.",
+    "Founded in 1926, Meridian Capital Group is a leading global financial services firm headquartered in New York with a major European presence in Frankfurt, Germany. Learn about our history, leadership, values, and global presence across 30+ countries.",
 };
 
 const stats = [
   { label: "Founded", value: "1926", icon: Calendar },
-  { label: "Headquarters", value: "Otemachi, Tokyo", icon: Building2 },
+  { label: "Headquarters", value: "New York, NY", icon: Building2 },
   { label: "Employees", value: "~28,000", icon: Users },
-  { label: "Revenue", value: "¥1.8T", icon: TrendingUp },
+  { label: "Revenue", value: "$12.4B", icon: TrendingUp },
 ];
 
 const subpages = [
   {
     title: "Leadership",
     description:
-      "Meet the executive team steering Hayashida Group's strategy across investment banking, global markets, asset management, and technology.",
+      "Meet the executive team steering Meridian Capital Group's strategy across investment banking, global markets, asset management, and technology.",
     href: "/about/leadership",
     icon: Users,
   },
   {
     title: "Our History",
     description:
-      "From a Tokyo securities firm in 1926 to a global financial institution managing trillions in assets — explore our journey through nearly a century of growth.",
+      "From a New York securities firm in 1926 to a global financial institution managing trillions in assets — explore our journey through nearly a century of growth.",
     href: "/about/history",
     icon: History,
   },
   {
     title: "Global Presence",
     description:
-      "With offices in over 30 countries spanning Tokyo, London, New York, Hong Kong, Singapore, and beyond, we deliver integrated solutions wherever our clients operate.",
+      "With offices in over 30 countries spanning New York, London, Frankfurt, Hong Kong, Singapore, and beyond, we deliver integrated solutions wherever our clients operate.",
     href: "/about/global-presence",
     icon: Globe2,
   },
@@ -56,7 +56,7 @@ const values = [
   {
     title: "Innovation & Excellence",
     description:
-      "From pioneering electronic trading in Asia to launching our Horizon 2027 digital transformation, we continuously invest in technology and talent to stay at the frontier of global finance.",
+      "From pioneering electronic trading to launching our Horizon 2027 digital transformation, we continuously invest in technology and talent to stay at the frontier of global finance.",
     icon: Target,
   },
 ];
@@ -65,7 +65,7 @@ export default function AboutPage() {
   return (
     <>
       <PageHeader
-        title="About Hayashida Group"
+        title="About Meridian Capital Group"
         subtitle="A leading global financial services firm connecting markets and shaping futures since 1926."
         backgroundImage="https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?auto=format&fit=crop&w=1920&q=80"
       />
@@ -78,15 +78,15 @@ export default function AboutPage() {
               Who We Are
             </h2>
             <p className="mt-6 text-gray-600 text-lg leading-relaxed">
-              Hayashida Group is a premier global financial services firm
-              headquartered in Otemachi, Tokyo. Founded in 1926 by Ichiro
-              Hayashida, the firm has grown from a domestic securities house
+              Meridian Capital Group is a premier global financial services firm
+              headquartered in New York. Founded in 1926 by Edward
+              Meridian, the firm has grown from a domestic brokerage
               into a diversified institution serving corporate, institutional,
               and high-net-worth clients across more than 30 countries.
             </p>
             <p className="mt-4 text-gray-600 text-lg leading-relaxed">
-              Listed on the TSE Prime Market, Hayashida Group generates annual
-              revenue of approximately ¥1.8 trillion and employs roughly 28,000
+              Listed on the NYSE, Meridian Capital Group generates annual
+              revenue of approximately $12.4 billion and employs roughly 28,000
               people worldwide. Our four integrated business divisions —
               Investment Banking, Global Markets, Asset Management, and Wealth
               Management — are supported by world-class risk management,
@@ -159,7 +159,7 @@ export default function AboutPage() {
               Values & Vision
             </h2>
             <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-              Our values have guided Hayashida Group through nearly a century of
+              Our values have guided Meridian Capital Group through nearly a century of
               market cycles, technological change, and global expansion. They
               remain the compass for everything we do.
             </p>
@@ -189,7 +189,7 @@ export default function AboutPage() {
             Shaping the Next Century
           </h2>
           <p className="mt-4 text-navy-300 text-lg max-w-2xl mx-auto leading-relaxed">
-            Through our Horizon 2027 initiative, Hayashida Group is investing in
+            Through our Horizon 2027 initiative, Meridian Capital Group is investing in
             the technology, talent, and sustainable practices that will define
             the future of global finance. We are modernizing our infrastructure,
             deepening our commitment to ESG, and expanding our capabilities to
