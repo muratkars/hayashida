@@ -22,7 +22,7 @@ const presentations: Presentation[] = [
     date: "June 2027",
     category: "Annual Report",
     description:
-      "Comprehensive overview of Meridian Capital Group's FY27 financial performance, including $12.8B net revenue, 12.1% ROE, and transformational progress on Horizon 2027 — the successful migration of Risk Analytics from legacy HDFS to high-performance object storage with Dremio, delivering 13.9% faster risk calculations and 99.97% availability.",
+      "Comprehensive overview of Meridian Capital Group's FY27 financial performance, including $12.8B net revenue, 12.1% ROE, and transformational progress on Horizon 2027.",
     href: "/presentations/Meridian-Capital-Group-FY27-Annual-Report.pdf",
   },
 ];
