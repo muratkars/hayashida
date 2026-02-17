@@ -13,57 +13,17 @@ interface Presentation {
   date: string;
   category: string;
   description: string;
+  href: string;
 }
 
 const presentations: Presentation[] = [
   {
-    title: "FY2026 Annual Report",
-    date: "June 2026",
+    title: "FY2027 Annual Report",
+    date: "June 2027",
     category: "Annual Report",
     description:
-      "Comprehensive overview of Meridian Capital Group's financial performance and strategic priorities for the fiscal year, including divisional results, capital management, and progress on the Horizon 2027 initiative.",
-  },
-  {
-    title: "FY2025 Technology Strategy Update",
-    date: "March 2025",
-    category: "Strategic Update",
-    description:
-      "Rising infrastructure costs driven by data growth of 3x over 3 years. Horizon 2027 targets 40% TCO reduction through storage modernization, workload optimization, and hybrid cloud adoption.",
-  },
-  {
-    title: "Q3 FY2026 Earnings Supplement",
-    date: "February 2025",
-    category: "Quarterly Earnings",
-    description:
-      "Supplementary materials for the third quarter of FY2026, including detailed segment performance, $290M annual technology spend breakdown, and technology investment representing 2.3% of revenue.",
-  },
-  {
-    title: "Q2 FY2026 Earnings Presentation",
-    date: "November 2024",
-    category: "Quarterly Earnings",
-    description:
-      "Second quarter results for FY2026, covering consolidated financial performance, revenue and net income trends, divisional highlights, and updated full-year guidance.",
-  },
-  {
-    title: "Horizon 2027: Digital Transformation Strategy",
-    date: "September 2024",
-    category: "Strategic Update",
-    description:
-      "Comprehensive overview of Meridian's three-year technology modernization program, including infrastructure migration strategy, AI/ML investment roadmap, and projected cost savings.",
-  },
-  {
-    title: "ESG & Sustainability Report 2026",
-    date: "August 2026",
-    category: "ESG Report",
-    description:
-      "Annual sustainability report covering Meridian Capital Group's environmental, social, and governance initiatives, including progress toward our $14 billion sustainable financing target and carbon neutrality commitments.",
-  },
-  {
-    title: "Horizon 2027: Digital Transformation Supplement",
-    date: "January 2026",
-    category: "Strategic Update",
-    description:
-      "Detailed supplement on the Horizon 2027 digital transformation initiative, covering infrastructure migration progress, AI/ML investment milestones, and updated cost savings projections.",
+      "Comprehensive overview of Meridian Capital Group's FY27 financial performance, including $12.8B net revenue, 12.1% ROE, and transformational progress on Horizon 2027 — the successful migration of Risk Analytics from legacy HDFS to high-performance object storage with Dremio, delivering 13.9% faster risk calculations and 99.97% availability.",
+    href: "/presentations/Meridian-Capital-Group-FY27-Annual-Report.pdf",
   },
 ];
 
@@ -133,10 +93,15 @@ export default function PresentationsPage() {
                     </p>
                   </div>
                   <div className="hidden sm:flex items-center shrink-0">
-                    <button className="inline-flex items-center gap-2 text-sm font-semibold text-navy-700 hover:text-accent-red transition-colors px-4 py-2 rounded border border-gray-200 hover:border-accent-red/30">
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm font-semibold text-navy-700 hover:text-accent-red transition-colors px-4 py-2 rounded border border-gray-200 hover:border-accent-red/30"
+                    >
                       <Download className="w-4 h-4" />
                       PDF
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
