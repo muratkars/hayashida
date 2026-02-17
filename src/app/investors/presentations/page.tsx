@@ -19,7 +19,7 @@ interface Presentation {
 const presentations: Presentation[] = [
   {
     title: "FY2027 Annual Report",
-    date: "June 2027",
+    date: "February 2026",
     category: "Annual Report",
     description:
       "Comprehensive overview of Meridian Capital Group's FY27 financial performance, including $12.8B net revenue, 12.1% ROE, and transformational progress on Horizon 2027.",
