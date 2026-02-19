@@ -19,6 +19,9 @@ const pillars = [
       "TCFD-aligned climate risk disclosures across all divisions",
       "Green Bond Framework for sustainable debt issuance",
       "Phased reduction of financing for thermal coal projects",
+      "Real-time environmental telemetry across all data centers tracking energy, water, and carbon metrics",
+      "Satellite and IoT-based environmental monitoring for financed asset climate risk assessment",
+      "AI-powered ESG scoring engine analyzing 10,000+ companies for portfolio sustainability alignment",
     ],
   },
   {
@@ -31,9 +34,6 @@ const pillars = [
       "Community investment exceeding $35M per year",
       "Employee well-being and development programs globally",
       "AI ethics governance framework ensuring responsible deployment of machine learning models",
-      "Real-time environmental telemetry across all data centers tracking energy, water, and carbon metrics",
-      "AI-powered ESG scoring engine analyzing 10,000+ companies for portfolio sustainability alignment",
-      "Satellite and IoT-based environmental monitoring for financed asset climate risk assessment",
     ],
   },
   {
